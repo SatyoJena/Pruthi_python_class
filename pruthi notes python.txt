@@ -1,0 +1,70 @@
+python - programing lang
+jupyter notebook - app/environment/interface
+	- share
+	- online
+	- edit
+anaconda - app/env/interface
+	- more tools like gdb, pip, command line
+	- glorified vscode 
+	- IDE - integrated dev env
+spyder too.
+
+programming - scheduling/ instructing
+linear programming - math problem
+computer programming - language use
+
+python can be used to give instructions to the comp
+
+python - inspired by ABC and Modula-3
+fortran - 1950s scientific computation
+
+OO lang - Object Oriented lang
+python is actually not a pure oop lang
+every Ohas 2 bject things - properties, functionalities
+object interact with other objects
+Class vs Object
+
+interpreted vs compiled
+compiling    = preprocessing + object code + loading + linking + executing
+interpreting = only executing (though line by line)
+python is an interpreted lang
+
+			Compiled language 			     	Interpreted language
+	- all source code is analysed in      - source code is analysed line by line
+	its entirity.
+
+	- have to handle ALL errors before    - not necessary
+	running.
+
+	- faster                              - slower
+	- hard to change                      - easy to change
+
+
+
+cross platform - almost all OSes Windows, Linux, Android, MacOS, iOS, FreeBSD
+
+python is fairly complete (you can find library for almost anything). 
+python has a huge community.
+so many libraries.
+
+python is free and open source 
+
+variety of usage - game, website, scripting, sysadmin, IoT, embedded
+
+disadvantages:
+	- slow
+	- less libraries than C, Java etc
+	- weakly typed
+	- not convertible, easily to other language
+
+
+using IDLE:
+	- interactive mode when opened
+	- new file(ctrl N), run by F5
+
+using cmd:
+	- open terminal in the folder where python program is.
+	- type "python <program_name.py>"
+	- the program is executed
+	- need to add python to PATH for this 
+
