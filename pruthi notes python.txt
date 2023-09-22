@@ -68,3 +68,64 @@ using cmd:
 	- the program is executed
 	- need to add python to PATH for this 
 
+			###  22.09.2023 20:30 IST  ###
+
+- boolean operators
+	==  (is equal to)
+		a == b (suppose a=4, b=5, returns False)
+	!= (not equal to)
+		a != b (suppose a=4, b=5, returns True)
+
+	use of `not` keyword in python
+		not(a == b) (suppose a=4, b=5, returns True)
+		-> a != b
+
+		not (a==b) -> a !=b
+		not (a!=b) -> a ==b
+
+- identity operator
+	
+	`is` keyword in python
+
+	id() is a function that gives a variable a number, based on its value
+
+	a = 23
+	b = 23
+	a is b -> True
+	id (a) -> 140735011808744
+	id (b) -> 140735011808744
+
+- bitwise operators
+	
+	1101101 (109)
+  & 1010110 (86)
+    1000100 (68)
+
+    => 109 & 86 = 68
+
+   similarly | (bitwise or)  and  ^ (bitwise xor)
+
+	1101101 (109)
+  ^ 1010110 (86)
+    0111011 (59)
+
+    => 109 ^ 86 = 59
+
+
+- if statements
+
+	if accepts a boolean in front of it.
+
+	case 1
+	if (TRUE) :
+		{if block} -> executes
+	else :
+		{else block} -> doesn't execute
+
+	case 2
+	if (FALSE) :
+		{if block} -> doesn't execute
+	else :
+		{else block} -> executes
+
+	# bool <boolean operation> bool -> bool
