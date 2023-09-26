@@ -129,3 +129,37 @@ using cmd:
 		{else block} -> executes
 
 	# bool <boolean operation> bool -> bool
+
+
+				### 24th Sep 2023 ###
+
+loops
+
+range()
+
+				### 26th Sep 2023 ###
+
+range(start=0, stop, st) -> constructor that can take max 3 integers
+
+list    -> data structure
+list()  -> constructor that takes an iterable
+
+range(start, stop, step) -> step  is 1 by default
+												 -> start is 0 by default
+range(1,10,3) -> 1 4 7
+
+range is an `iterable`
+
+iterative -> iteration -> meaning repetition
+
+list -> stores multiple values ~ in an order ~
+				- jemiti deiche semiti paiba
+		 -> those values can be accessed using an index
+		    - ((most things)) start from 0
+		    - listname[index]
+		 -> list is a data structure but it also is an iterable
+
+`in` keyword
+checks if a value is in an iterable
+
+<value> in <iterable>
