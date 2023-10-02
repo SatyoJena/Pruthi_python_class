@@ -142,7 +142,7 @@ range()
 range(start=0, stop, st) -> constructor that can take max 3 integers
 
 list    -> data structure
-list()  -> constructor that takes an iterable
+list()  -> constructor that makes an iterable
 
 range(start, stop, step) -> step  is 1 by default
 												 -> start is 0 by default
@@ -156,10 +156,87 @@ list -> stores multiple values ~ in an order ~
 				- jemiti deiche semiti paiba
 		 -> those values can be accessed using an index
 		    - ((most things)) start from 0
-		    - listname[index]
+		    - listname[index] # list[2] -> list ra 3rd element
 		 -> list is a data structure but it also is an iterable
 
 `in` keyword
 checks if a value is in an iterable
 
 <value> in <iterable>
+
+... to be completed by pruthi
+
+				### 1st Oct 2023 ###
+
+more Strings and Lists
+
+what is a string?
+	- inverted comma bhitare jaha rahe
+
+	- a string is a collection of letters(characters)
+
+so list and strings both are iterables
+
+				### 2nd Oct 2023 ###
+				
+		lists are mutable (i.e. they can be changed.)
+			- by accessing their index
+		strings are immutable, their elements can not be changed.
+			- you can access their indices, but can't modify them.
+
+		Slicing:
+			a[start:end:step]
+			>>>b = "abcdefg"
+			>>>b[3:]
+			'defg'
+			>>>b[:3]
+			'abc'
+			>>>b == b[:3] + b[3:]
+			True
+			>>>b[:3] == b[0] + b[1] + b[2]
+			True
+			>>>b[3:] == b[3] + b[4] + b[5] + b[6]
+			True
+			>>>b[::-1]
+			'gfedcba'
+
+
+		methods:
+			a method is function that can be called on an object
+			- an object - every variable is an object (in OOP languages e.g. Python) 
+			- function 
+				examples - abs(), print(), len(), range(), int(), input()
+				a function is a peice of code that does does something 
+				but has a name and takes some input.
+			- called
+				who is called? A function is called. It is used.
+
+		string and list has some methods defined for them.
+		List methods:
+			- append(ele) : adds an element to list
+			- index(ele) : returns the index of an first element found in list
+			- insert(index, ele) : places element before the index
+			- pop(index) : deletes the item at given index; default is last
+			- remove(ele) : deletes the first element found
+			- extend(list) : adds the list to original list
+			- reverse() : reverse a list
+			- sort(reverse) : sorts a list in ascending order.
+					-> set `reverse=True` to do in descending order.
+
+		String methods:
+			- split(ele) : splits the string into an list of smaller strings
+										 separated by the element given; default is space.
+			- isalnum() : checks if all characters in string are alphanumeric
+										alpha[a-z,A-Z] numeric[0-9].
+
+			# TODO: Write a program that checks if a string is alphabetic. Dont use built in methods for strings. Extra: check for alphanumeric.#
+
+			- isalpha() : same but checks only if chars alphabetic
+			- isnumeric() : checks only if chars are numeric.
+			- upper() : changes to upper case, all characters.
+			- lower() : changes to lower case, all characters.
+			- find(substr, start, end) : searches within str[start:end]
+																	 returns the index, if found.
+																	         -1 if not found.
+			- replace(old, new, count): replaces `count` no. of old substring
+																	with new substring; replaces all by default.
