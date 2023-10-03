@@ -240,3 +240,71 @@ so list and strings both are iterables
 																	         -1 if not found.
 			- replace(old, new, count): replaces `count` no. of old substring
 																	with new substring; replaces all by default.
+
+						### 3rd Oct 2023 ###
+
+						TEST and EXERCISE
+			Q1. (+1 points)
+			a = 2
+			print('a'*2**2)
+			>>>aaaa
+
+			mistake :
+				- confused string 'a' with a the variable
+				- how will we do power on string?
+				- the power operation is done first, because of `PRECEDENCE`.
+				2 + 2 * 3
+				2 + 6 (because precedence of * is greater than +)
+				8
+					** 
+					* / // %
+					+ -
+			Q2. (+1 points)
+			Q3. (-1 points) // silly mistake
+			Q4. (+1 points)
+			print('a' + a + a*a + 'a'*a)
+			>>>'a+6+aa'(mistake)
+				- thought str + int is possible
+
+			string addition: str, str (takes 2 strings and adds them together)
+			string multiplication: str, int (repeats the string n times)
+			no deviation.
+			"a"*2
+			>>>'aa'
+			2 == 2.000
+			>>>True
+			"a"*2.000
+			>>>Traceback (most recent call last):
+			  File "<pyshell#16>", line 1, in <module>
+			    "a"*2.000
+			TypeError: can't multiply sequence by non-int of type 'float'
+
+			Q5.(-1 point +2 point for trying )
+			print('a'*3+((2**3)+3)*'aa')
+			14 ta 'a' (wrong)
+			correct: 25 ta 'a'
+
+				- confused 'aa' with 'a'
+				- then why didn't he say 3 'a' and 11 'aa'?
+				- lack in scientific thinking.
+				- one must report the result as seen on paper, never manipulate it behind mind.
+
+			# smol revision
+			 111
+			&101
+			 101 (boolean logic)
+			This logic works on boolean values.
+			In computer, a True is a `1`; and a False is `0`.
+
+			Q6.(+10 points)
+			print(2**True*2+(2==5//2)*3)
+			7 (correct)
+			Took ~10 minutes but he did it!!
+
+			was confused about 2**True first.
+			2**True -> True he thought.
+			2**True == 2**1 == 2 he realised, on his own.
+
+			Total = 13 points
+
+
