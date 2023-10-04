@@ -308,3 +308,86 @@ so list and strings both are iterables
 			Total = 13 points
 
 
+				### 4th Oct 2023 ###
+
+			Test and practice (season - 02)
+			topic- list, str, loops
+			
+			Q1.(-2 for ignorance, +3 for trying, +1 for new knowledge)
+			s = 0
+			for i in range(1,10):
+			    s = s+i 
+			print(s)
+			>>>1 2 3 4 5 6 7 8 9 (wrong)
+
+			mistakes:
+				- didnt know the significance of indentation.
+				- thought print is called 10 times
+				- missed the `s`
+			2nd try:
+			1
+			3
+			6
+			10
+			15
+			21
+			28
+			36
+			45 (wrong)
+				- thought print is called 10 times, again.
+				- missed the fact that re-assignment overwrites the data
+
+			sum(iterable) -> returns the sum of all elements in that iterable
+			sum(range(1,10)) -> 45
+			sum([1,2,5,3,7,9]) -> 27
+			sum([1,-2,5,-3,7,-9]) -> -1
+
+			Q2.(+2 points for first try correct)
+			s = 0
+			for i in range(1,10,3):
+			    s = s+i 
+			
+			print(s)
+			>>>12 (correct!)
+
+			Q3.(+3 points for 1st try coorect and consistency)
+			s = 0
+			for i in range(-23,-27,-3):
+			    s = s-i 
+			
+			print(s)
+			>>>49 (correct!)
+
+			Q4. (+1 points for knowledge gain)
+			s = []
+			for i in range(5):
+			    s[i] = i*2
+			
+			print(s)
+			>>> gave up :(
+			explanation:
+				s = [] # s is an empty list
+				range(5) -> 0 1 2 3 4
+				i = 0
+				s[0] = 0*2
+				>>>> errorrrrrrr......
+				
+				what does s[0] mean? first element of s.
+				what is the first element of s?
+				there is no element, thus triggering an error.
+				
+				rule: index is always less than length.
+
+				Q5. (+2 points for almost correct)
+				s = []
+				for i in range(5): 
+				    s.append(i*2)
+				    
+				print(s) 
+				>>> 0 2 4 6 8
+				actual [0, 2, 4, 6, 8]
+
+				Total 12 points. 
+
+
+
