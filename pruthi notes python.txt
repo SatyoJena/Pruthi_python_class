@@ -389,5 +389,16 @@ so list and strings both are iterables
 
 				Total 12 points. 
 
+				### 7 Oct 2023 ###
+
+			topic - more loop logic
+			goal: to be able to print this:
+			
+			*****
+			 ***
+			  *
+			 ***
+			*****
+			you will do this.
 
 
