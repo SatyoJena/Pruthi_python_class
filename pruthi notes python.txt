@@ -402,3 +402,91 @@ so list and strings both are iterables
 			you will do this.
 
 
+				### 16th Oct 2023 ###
+
+			topic - revision
+
+			boolean logic
+
+			True, False   0,1
+
+			and, or, not,
+			nor = not or
+			nand, 
+			xor = ab' | ba'
+
+			and 
+			A|B  A and B (A&B)
+			0|0  0
+			0|1  0
+			1|0  0
+			1|1  1
+			
+			or 
+			A|B  A or B (A|B)
+			0|0  0
+			0|1  1
+			1|0  1
+			1|1  1
+			
+			not
+			A  not A (~A)
+			0  1
+			1  0
+
+			xor
+			A|B  A xor B (A^B)
+			0|0  0
+			0|1  1
+			1|0  1
+			1|1  0
+
+			laws 
+			
+			- compliment law
+			~~A = A
+			
+			- De Morgan's law
+			~(X and Y) = ~X or  ~Y
+			~(X or  Y) = ~X and ~Y
+
+			~(A or ~(B and C)) 
+			X = A, Y = ~(B and C) 
+			~(X or Y) = ~A and ~~(B and C)
+					  = ~A and B and C
+
+
+
+			a = 5
+			b = 6
+			binary(a) = 101
+			binary(b) = 110
+			a & b     = 100 = 4
+			a | b     = 111 = 7
+			a ^ b     = 011 = 3
+
+			for i in range(1,10):
+			    if (i%3 == 0):
+			        continue
+			    elif(i%2 == 0):
+			        print(i)
+			    else:
+			        pass
+			        
+			pruthi -> 1,2,4,5,7,8
+			actual -> 2,4,8
+
+
+			while(i>0):
+			    if(i%2 == 0):
+			        print(i)
+			    else:
+			        print('odd')
+			    i = i-1
+
+			pruthi -> 9
+			actual -> 10, odd,  8, odd,  6, odd, 4, odd, 2, odd
+			
+			ASCII - American Standard Code for Information Interchange
+			UTF   - Unicode Transformation Format
+			
