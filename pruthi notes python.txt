@@ -20,8 +20,8 @@ fortran - 1950s scientific computation
 
 OO lang - Object Oriented lang
 python is actually not a pure oop lang
-every Ohas 2 bject things - properties, functionalities
-object interact with other objects
+every Object has 2 things - properties, functionalities
+objects are able to interact with other objects
 Class vs Object
 
 interpreted vs compiled
@@ -97,7 +97,7 @@ using cmd:
 
 - bitwise operators
 	
-	1101101 (109)
+    1101101 (109)
   & 1010110 (86)
     1000100 (68)
 
@@ -105,7 +105,7 @@ using cmd:
 
    similarly | (bitwise or)  and  ^ (bitwise xor)
 
-	1101101 (109)
+    1101101 (109)
   ^ 1010110 (86)
     0111011 (59)
 
