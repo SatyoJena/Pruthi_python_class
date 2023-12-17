@@ -490,3 +490,28 @@ so list and strings both are iterables
 			ASCII - American Standard Code for Information Interchange
 			UTF   - Unicode Transformation Format
 			
+				###  17 Dec 2023 8:55 PM ###
+
+		Topic: Tuples
+		t = (1,2,3,4)
+		# a tuple is an immutable data type
+		# the variable is changeable, not the tuple in it.
+
+		>>> t = 1,2,3,4,5,
+		>>> t
+		>>> (1, 2, 3, 4, 5)
+		>>> t = 1,2,3,4,5
+		>>> t
+		>>> (1, 2, 3, 4, 5)
+
+		# unpacking
+		'''
+		a tuple has n elements, we can store these
+		n elements in n variables. mostly used in loops.
+		'''
+		
+		# tuple is used for representation.
+		# complex number a + jb -> (a,b)
+		# coordinate (x,y,z)
+		# excel sheet (column1, column2, ...)
+		# fractions p/q -> (p,q)
